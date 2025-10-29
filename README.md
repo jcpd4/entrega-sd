@@ -48,3 +48,10 @@ advertised.listeners=PLAINTEXT://192.168.18.13:9092,CONTROLLER://localhost:9093
 
 #### Paso 1: Clonar el Repositorio
 #### Paso 1: Clonar el Repositorio
+
+
+### Paso C: Ejecutar en PC's del aula
+
+#### Paso 1: java
+#### Paso 2: python
+#### Paso 3: kafka
