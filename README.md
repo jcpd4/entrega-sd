@@ -4,13 +4,19 @@ Sigue estos pasos para poner en marcha la práctica.
 
 ### Paso A: Clonar el Repositorio
 
-#### Paso 1: Clonar el Repositorio
+#### Paso 1: descargar kafka_examen
+```bash
+winget install --id Git.Git -e --source winget
+```
+
+#### Paso 2: Clonar el Repositorio
 ```bash
 git clone https://github.com/jcpd4/prac1-sd.git
-cd tu-repo
 ```
-#### Paso 2: Borrar y crear
+#### Paso 3: Borrar y crear
 Borra y crea un *ev_chargin.db* nuevo (IMPORTANTE)
+
+
 
 
 ### Paso B: kafka
