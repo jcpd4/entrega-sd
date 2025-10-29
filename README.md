@@ -66,6 +66,11 @@ Vuelve al paso 4.
 
 ### Paso C: Ejecutar en PC's del aula
 
+#### Instala kafka-python
+```bash
+pip install kafka-python
+```
+
 #### Paso 1: central (PC1)
 ```bash
 python EV_Central.py 8000 172.21.242.226:9092
