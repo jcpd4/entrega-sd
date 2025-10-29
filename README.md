@@ -23,9 +23,28 @@ descargar https://drive.google.com/file/d/1bp6_fHtfKEeaWFYsQZ6hb5u38yiN9qhE/view
 tar -xzvf kafka_examen.tar.gz
 ```
 
+#### Paso 3: cambiar las ip's en server.properties
+ir a kafka>config>server.properties
 
-#### Paso 1: Clonar el Repositorio
-#### Paso 1: Clonar el Repositorio
-#### Paso 1: Clonar el Repositorio
+```bash
+listeners=PLAINTEXT://192.168.18.13:9092,CONTROLLER://localhost:9093
+advertised.listeners=PLAINTEXT://192.168.18.13:9092,CONTROLLER://localhost:9093
+```
+
+#### Paso 4: Como administrador en powershell
+```bash
+[guid]::NewGuid().ToString()
+```
+
+#### Paso 5: Ejecuta esto en kafka
+```bash
+.\bin\windows\kafka-storage.bat format -t TU_UUID_AQUI -c .\config\server.properties
+```
+
+#### Paso 6: Clonar el Repositorio
+```bash
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+```
+
 #### Paso 1: Clonar el Repositorio
 #### Paso 1: Clonar el Repositorio
