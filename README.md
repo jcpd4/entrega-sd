@@ -59,6 +59,11 @@ advertised.listeners=PLAINTEXT://192.168.18.13:9092,CONTROLLER://localhost:9093
 ```
 
 
+#### Paso 7: En caso de que no vaya kafka
+ves al directorio, en config busca meta.properties y BORRALO
+Vuelve al paso 4.
+
+
 ### Paso C: Ejecutar en PC's del aula
 
 #### Paso 1: central (PC1)
