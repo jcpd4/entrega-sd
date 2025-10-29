@@ -18,7 +18,10 @@ Borra y crea un *ev_chargin.db* nuevo (IMPORTANTE)
 #### Paso 1: descargar kafka_examen
 descargar https://drive.google.com/file/d/1bp6_fHtfKEeaWFYsQZ6hb5u38yiN9qhE/view?usp=drive_link
 
-#### Paso 1: Clonar el Repositorio
+#### Paso 2: descomprimirlo en C:/
+```bash
+tar -xzvf kafka_examen.tar.gz
+```
 
 
 #### Paso 1: Clonar el Repositorio
