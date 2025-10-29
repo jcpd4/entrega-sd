@@ -58,12 +58,20 @@ advertised.listeners=PLAINTEXT://192.168.18.13:9092,CONTROLLER://localhost:9093
 .\bin\windows\kafka-server-start.bat .\config\server.properties
 ```
 
-#### Paso 1: Clonar el Repositorio
-#### Paso 1: Clonar el Repositorio
-
 
 ### Paso C: Ejecutar en PC's del aula
 
-#### Paso 1: java
-#### Paso 2: python
-#### Paso 3: kafka
+#### Paso 1: central (PC1)
+```bash
+python EV_Central.py 8000 172.21.242.226:9092
+```
+
+#### Paso 2: Engine y monitor (PC2)
+```bash
+python EV_CP_E.py 8001 172.21.242.226:9092 MAD-01
+python EV_CP_M.py 172.21.242.226 8000 172.21.242.x 8001 MAD-01
+```
+
+
+#### Paso 3: Engine
+
